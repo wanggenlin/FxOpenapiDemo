@@ -76,7 +76,7 @@ public class QuoteImpl extends BaseTests {
     @Test
     public void quoteTicker24hr() {
         LinkedHashMap<String, String> param = new LinkedHashMap<>();
-        param.put("symbol", "BTCUSDT");
+//        param.put("symbol", "BTCUSDT");
         bizRequest(ActionEnum.quoteTicker24hr, param);
     }
 
